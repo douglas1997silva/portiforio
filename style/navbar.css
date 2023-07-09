@@ -1,0 +1,59 @@
+@import url(../variareis.css);
+header{
+    display: flex;
+    background: var(--gradient-menu);
+    padding: 15px;
+    
+}
+.menu_nav{
+    display: none;
+}
+nav.nav-ativa{
+    display: block;
+}
+.menu_hamburgue{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--gradient-menu);
+    border: none;
+    cursor: pointer;
+    background-image: url(../img/menu-hamburguer.svg);
+    
+    
+}
+
+.menu-lista_paginas{
+    display:inline-block;
+    flex-direction: column;
+    background: var(--claro);
+    align-items: stretch;
+    border-radius: 5px;
+    border: solid 5px var(--preto);
+    gap: 2rem;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    padding: 1em 0.5em;
+    
+}
+.menu-lista_categorias{
+    margin-bottom: 1rem;
+
+}
+.lista_ancora{
+    text-decoration: none;
+}
+/* redes*/
+.menu-redes{
+width: 90%;
+}
+.menu-lista_redes{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    
+}
+.redes-imagem:hover{
+ transform: matrix(0,1,1,2);
+}
