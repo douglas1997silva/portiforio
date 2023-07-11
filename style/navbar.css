@@ -29,20 +29,28 @@ nav.nav-ativa{
     background: var(--claro);
     align-items: stretch;
     border-radius: 5px;
-    border: solid 5px var(--preto);
     gap: 2rem;
     position: absolute;
     left: 0;
     top: 50px;
     padding: 1em 0.5em;
+    width: 50%;
+    height: 70%;
+    background: var(--gradient-menu);
+    text-align: center;
+    z-index: 99;
     
 }
 .menu-lista_categorias{
     margin-bottom: 1rem;
+    
 
 }
-.lista_ancora{
+.lista-ancora{
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
 }
 /* redes*/
 .menu-redes{

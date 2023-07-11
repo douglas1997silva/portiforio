@@ -1,5 +1,9 @@
 @import url(./style/navbar.css);
+@import url(./style/home.css);
+@import url(./variareis.css);
 
 body{
-    height: 100vw;
+    min-height: 100vh;
+    background: var(--gradient-body)no-repeat;
+    font-family: var(--font-inter);
 }
